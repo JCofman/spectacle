@@ -100,6 +100,7 @@ export const getStyles = function getStyles() {
   if (padding) {
     styles.padding = padding;
   }
+
   if (textColor) {
     let color = '';
     if (!this.context.styles.colors.hasOwnProperty(textColor)) {
@@ -148,7 +149,6 @@ export const getStyles = function getStyles() {
     }
     styles.backgroundColor = color;
   }
-
   if (bgGradient) {
     styles.backgroundImage = bgGradient;
   }
